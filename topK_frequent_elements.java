@@ -4,6 +4,7 @@ class Solution {
 
         for(int i = 0; i < nums.length; i++) {
             int number = nums[i];
+            print(number)
             if(!map.containsKey(number)) {
                 map.put(number, 1);
             } else {
