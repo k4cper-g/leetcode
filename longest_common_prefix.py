@@ -11,6 +11,7 @@ class Solution(object):
                 if i == len(str) or str[i] != strs[0][i]:
                     return prefix
             prefix += strs[0][i]
+        return prefix
         """
         :type strs: List[str]
         :rtype: str
